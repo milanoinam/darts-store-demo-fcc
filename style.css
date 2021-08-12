@@ -1,0 +1,126 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    /* remove the space around the body */
+    margin: 0; 
+}
+
+#nav-bar{
+    height: 44px;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: midnightblue;
+    /* text-decoration: none; */
+    /* color: white; */
+    /* background-color: #433085 ; */
+    /* border: 2px solid black; */
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+
+.nav-link{ 
+    text-decoration: none;
+    /* color:yellow; */
+    color: white;
+    font-size: 1.4em;
+    margin: 14px;
+}
+
+#header{
+    /* border: 2px solid red; */
+    background: linear-gradient(90deg,black,darkblue);
+}
+
+#imgcontainer1{
+    /* border: 2px solid white; */
+    display: flex;
+    size: 100%;
+    align-items: center;
+
+}
+
+#video{
+    width: 50vw;
+    height: 40vw;
+    display: block;
+    margin: auto;
+}
+
+#form{
+    /* margin: 30px; */
+    width: 50vw;
+    height: 40vw;
+    /* background:rgb(15, 56, 131); */
+    background: linear-gradient(black,rgb(141, 45, 170));
+    border: 2px solid red;
+}
+
+#header-img{
+    /* border: 2px solid green; */
+    /* background: linear-gradient(#2d245b,#7b68bb); */
+    
+}
+
+
+#email{
+    display: block;
+    margin: 0px auto 10px auto;
+    padding-top: 10px; 
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#submit{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 6px auto 7px auto;
+    border-radius: 5px;
+}
+
+#banner{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(66, 26, 104)
+}
+
+#section2{
+    display: flex;
+    width: 100vw;
+    height: 40vw;
+}
+
+#emailgroup{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+}
+
+#Products{
+    display: flex;
+}
+
+#prod1{
+    width: 30vw;
+    
+}
+#prod2{
+    width: 30vw;
+
+}
+
+#productsheading,#tutorialheading{
+    text-align: center;
+}
+
+#tutorialvideo{
+    display: block;
+    margin: auto;
+}
